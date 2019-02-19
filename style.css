@@ -45,7 +45,7 @@ div.nav--is-desktop {
 
 button.nav--is-mobile {
   float: left;
-
+  margin-bottom: 2rem;
   padding: 1rem;
   background-color: transparent;
   border: 1px #f8f2f2 solid;
@@ -87,7 +87,7 @@ footer {
   color: #f1e5d6;
 }
 /*for Desktop*/
-@media (min-width: 600px) and (max-aspect-ratio: 10/7), (min-height: 700px) {
+@media (min-width: 600px) and (max-aspect-ratio: 10/7) {
   header {
     height: 20vh;
     padding: 0rem;
